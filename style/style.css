@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#corpo {
+    display: flex;
+    background-color: rgb(226, 226, 226);
+}
+#barra-lateral .column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: white;
+}
+#barra-lateral i {
+    font-size: larger;
+    text-indent: 10px;
+    color: black;
+}
+#user {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#user i {
+    font-size: 35px;
+}
+#user-user {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+}
+#user h6 {
+    margin-top: 5px;
+}
+#tabela-alunos {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-right: 20px;
+    padding: 20px;
+}
+#tabela-alunos .h4{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    justify-content: center;
+    margin-bottom: 3%;
+}
